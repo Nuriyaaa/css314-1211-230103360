@@ -1,0 +1,40 @@
+{
+    "student_id": "230103360",
+    "gpu": "Tesla T4",
+    "compute_capability": "7.5",
+    "local_domain": [
+        256,
+        256
+    ],
+    "padded_domain": [
+        258,
+        258
+    ],
+    "cuda_iterations": 400,
+    "time_step": 1e-06,
+    "energy_trace": [
+        {
+            "step": 100,
+            "energy": 21910.634715448003
+        },
+        {
+            "step": 200,
+            "energy": 21909.268869112748
+        },
+        {
+            "step": 300,
+            "energy": 21907.903197682735
+        },
+        {
+            "step": 400,
+            "energy": 21906.537701125133
+        }
+    ],
+    "ptx_audit": {
+        "ld.shared": 10,
+        "st.shared": 10,
+        "bar.sync": 1
+    },
+    "mpi_processes_verified": false,
+    "status": "CUDA validation completed; MPI validation pending"
+}
